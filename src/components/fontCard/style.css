@@ -1,0 +1,54 @@
+.font-card-div {
+  max-width: 570px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  cursor: pointer;
+}
+
+.selected {
+  opacity: 0.5;
+}
+
+.font-card-div:focus {
+  border-radius: 1em;
+}
+
+.font-card-div:hover {
+  border-radius: 1em;
+  background-color: rgb(227, 248, 255);
+  box-shadow: inset 0px 0px 20px 20px white;
+}
+
+.limited-width-list {
+  max-width: 270px;
+  padding-left: 50px;
+}
+
+.limited-width-list li {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  position: relative;
+  padding-left: 30px;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20px;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: silver;
+  border-radius: 50%;
+}

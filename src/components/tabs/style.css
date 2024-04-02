@@ -1,0 +1,29 @@
+.content-tabs {
+    max-width: 1000px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.tabs {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.tabs> :first-child {
+    margin-left: 21%;
+}
+
+.tab {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 81, 0);
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin-right: 0.8%;
+}
+
+.tab.selected {
+    color: gray;
+}
